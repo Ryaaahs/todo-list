@@ -1,0 +1,80 @@
+html {
+    height: 100%; 
+}
+
+body { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content-container {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    /* Allow the child to use a margin */
+    overflow: hidden;
+}
+
+.app-title-container {
+    text-align: center;
+    
+}
+
+.app-title {
+    margin-top: 5em;
+    font-size: 24px;
+}
+
+.input-container {
+    height: 15%; 
+    margin-top: 5%;
+    /* Put the input in the center of the div */ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.input-bar {
+    height: 50px;
+    width: 55%;
+    display: block;
+    margin-right: 3em;
+    border: 1px solid black;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.input-button {
+    height: 50px;
+    width: 10%;
+    background-color: rgb(112, 224, 142);
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.input-button:hover {
+    border-color: rgb(145, 193, 196);
+    background-color: rgb(184, 255, 203);
+}
+
+.input-button:active {
+    border-color: rgb(145, 193, 196);
+    background-color: rgb(188, 224, 186);
+}
+
+.todo-list-item-container {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.todo-item {
+    width: 70%;
+    margin-bottom: 1em;
+    background-color: blueviolet;
+    padding: 0.5em;
+}
